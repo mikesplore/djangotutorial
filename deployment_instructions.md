@@ -29,8 +29,7 @@ python3.10 -m venv venv  # Use python3.10 explicitly on PythonAnywhere
 source venv/bin/activate
 pip install --upgrade pip  # Ensure pip is up to date
 pip install django
-pip install -r requirements.txt  # if you have one
-```
+pip install -r requirements.txt 
 
 ## 4. Set Up Your Web App
 - Go to the **Web** tab in the PythonAnywhere dashboard.
