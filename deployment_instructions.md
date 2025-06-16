@@ -84,6 +84,25 @@ python manage.py collectstatic
 ## 11. Visit Your Site
 - Your site should now be live at: https://yourusername.pythonanywhere.com
 
+## How to Remove a Directory That Has Content
+
+To remove a directory and all its contents (files and subdirectories) from the command line, use:
+
+```bash
+rm -r directory_name
+```
+
+- The `-r` flag stands for "recursive", which means it will delete the directory and everything inside it.
+- Be careful: this operation is irreversible.
+
+If you want to force deletion without being prompted for confirmation, use:
+
+```bash
+rm -rf directory_name
+```
+
+- The `-f` flag stands for "force".
+
 ## Troubleshooting
 - Check the error logs in the Web tab
 - Make sure DEBUG = False in settings.py
