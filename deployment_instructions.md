@@ -65,7 +65,7 @@ pip install -r requirements.txt
     - URL: `/media/`  
       Directory: `/home/mikesplore/djangotutorial/media`
 
-## 7. Update `settings.py` for Dep
+## 7. Update `settings.py` for Deployments
 
 **You can do this using bash:**
 
